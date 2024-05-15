@@ -1,0 +1,66 @@
+body {
+    overflow: hidden;
+    font-family: "Calibri Light"  ,sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #222222;
+}
+
+input[type="button"] {
+    font-family: "Calibri"  ,sans-serif;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(32, 32, 32, .65);
+    border: 0;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 0 4px;
+}
+
+.maindiv {
+    margin: 0 auto;
+    width: 500px;
+    height: 800px;
+}
+
+.content {
+    text-align: center;
+    height: 560px;
+    width: 580px;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.middleText {
+    position: relative;
+    padding: 10px;
+    background: rgba(32, 32, 32, .94);
+    line-height: 1.3em;
+    border-radius: 8px 8px 0 0;
+    box-shadow: rgba(32, 32, 32, 0.5) 0 10px 10px -10px;
+}
+
+#game {
+    display: none;
+}
+
+#canvas {
+    position: relative;
+    top: 0;
+    background-color: #222222;
+    color: #666666;
+    border-radius: 4px;
+    padding: 6px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.7);
+}
+
+#back {
+    position: relative;
+    top: 0;
+}
+
+#heart {
+    font-family: "Calibri"  ,sans-serif;
+    color: #222222;
+}
+
